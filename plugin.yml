@@ -1,0 +1,22 @@
+name: ServerCore
+version: 1.0.0
+author: applqpak
+api: [2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2]
+main: ServerCore\Main
+permissions:
+  help.command:
+    default: true
+  give.command:
+    default: op
+  kick.command:
+    default: op
+  version.command:
+    default: true
+  plugins.command:
+    default: true
+  teleport.command:
+    default: op
+  whitelist.command:
+    default: op
+  joinleavemessages.command:
+    default: op
