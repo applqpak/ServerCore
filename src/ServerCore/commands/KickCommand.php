@@ -29,7 +29,7 @@
       public function execute(CommandSender $sender, $label, array $args)
       {
           if(!($this->testPermission($sender))) return false;
-          if(count($args) < 1)
+          if(count($args) < 2)
           {
               $sender->sendMessage(TF::RED . 'Usage: /kick <player> [admin] [reason]');
               return false;
