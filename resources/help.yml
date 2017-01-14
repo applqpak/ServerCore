@@ -1,0 +1,9 @@
+pages: 2
+
+page.1:
+  - §a-§bHelp page 1 of 2§a-
+  - §e/help <page> - Shows <page> of help.
+  - §e/version - Shows the verisin of this server.
+page.2:
+  - §a-§bHelp page 2 of 2§a-
+  - §e/plugins - Shows a list of plugins running in this server.
