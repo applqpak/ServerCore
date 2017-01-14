@@ -58,7 +58,7 @@
               $sender->sendMessage(TF::GREEN . 'Successfully kicked ' . $player->getName());
               return true;
           }
-          $player->kick('You were kicked from the server,', $admin);
+          $player->kick('You were kicked from the server.', $admin);
           $sender->sendMessage(TF::GREEN . 'Successfully kicked ' . $player->getName());
           return true;
       }
