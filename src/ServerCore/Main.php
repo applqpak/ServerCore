@@ -27,7 +27,7 @@
       public $whitelist;
       public $join_leave;
       
-      public $events   = ['onPlayerJoinEvent', 'onPlayerLeaveEvent', 'onPlayerPreLoginEvent'];
+      public $events   = [onPlayerJoinEvent::class, onPlayerLeaveEvent::class, onPlayerPreLoginEvent::class];
       
       public $commands = ['help',  'give', 'kick', 'version', 'plugins', 'teleport', 'whitelist'];
       
