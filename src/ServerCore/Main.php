@@ -7,7 +7,7 @@
   use pocketmine\utils\Config;
   
   use ServerCore\events\onPlayerJoinEvent;
-  use ServerCore\event\onPlayerLeaveEvent;
+  use ServerCore\events\onPlayerLeaveEvent;
   use ServerCore\events\onPlayerPreLoginEvent
   
   use ServerCore\commands\HelpCommand;
