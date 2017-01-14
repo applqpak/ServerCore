@@ -4,7 +4,7 @@
   
   use pocketmine\event\Listener;
   use pocketmine\utils\TextFormat as TF;
-  use pockemine\event\player\PlayerQuitEvent;
+  use pocketmine\event\player\PlayerQuitEvent;
   
   use ServerCore\Main;
   
